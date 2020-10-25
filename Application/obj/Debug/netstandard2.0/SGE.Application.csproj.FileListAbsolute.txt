@@ -1,0 +1,16 @@
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Application.deps.json
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Application.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Application.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Application.Abstraction.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Domain.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Infrastructure.Repository.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Application.Abstraction.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Domain.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\bin\Debug\netstandard2.0\SGE.Infrastructure.Repository.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.csprojAssemblyReference.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.AssemblyInfoInputs.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.AssemblyInfo.cs
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.csproj.CopyComplete
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application\obj\Debug\netstandard2.0\SGE.Application.csproj.CoreCompileInputs.cache

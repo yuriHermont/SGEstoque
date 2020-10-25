@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<Folder Include="CommandHandler\" />
+		<Folder Include="QueryHandler\" />
+		<Folder Include="Mapping\" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Abstraction\SGE.Application.Abstraction.csproj" />
+    <ProjectReference Include="..\SGE.Domain\SGE.Domain.csproj" />
+    <ProjectReference Include="..\SGE.Infrastructure.Repository\SGE.Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>
