@@ -20,7 +20,7 @@ namespace SGE.Infrastructure.Repository
 
         public async Task<IEnumerable<Produto>> GetAll()
         {
-           throw new NotImplementedException();//await _context.Produto.ToListAsync();  
+           throw new NotImplementedException();
         }
         public async Task<Produto> Get(int id)
         {

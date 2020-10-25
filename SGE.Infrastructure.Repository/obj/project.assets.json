@@ -1173,11 +1173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
       "projectName": "SGE.Infrastructure.Repository",
-      "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
+      "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
       "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1193,8 +1193,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Domain\\SGE.Domain.csproj": {
-              "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Domain\\SGE.Domain.csproj"
+            "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Domain\\SGE.Domain.csproj": {
+              "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Domain\\SGE.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xyEZPBfIKaeRRM7q1xxFBH9WVEEr4x7MS4igBYfhTJ/rWJ+LiG69dS/ZJvo3OqzoHaHhuptIOVnhjD07plGCQw==",
+  "dgSpecHash": "FBZ7MwpFoIC0u4zYSv/kFueYpTXyb+0UzIw5G5MGps/fyRlKFzVdEdD7znPe+wjxTI9PVfsUFDBb/OIBd3XD4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
