@@ -33,7 +33,7 @@ namespace SGE.Application.Command
                 ValorUnitario = command.ValorUnitario
             };
             try {
-                await _produtoRepository.Add(produto);
+                _produtoRepository.Add(produto);
                 return "ok";
             } catch {
                 return "falha";

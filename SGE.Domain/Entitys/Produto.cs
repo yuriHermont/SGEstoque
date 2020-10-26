@@ -8,7 +8,7 @@ namespace SGE.Domain.Entitys
     {
         public long Id { get; set; }
         public string NomeProduto { get; set; }
-        public int QtdeProduto { get; set; }
-        public double ValorUnitario { get; set; }
+        public long QtdeProduto { get; set; }
+        public float ValorUnitario { get; set; }
     }
 }

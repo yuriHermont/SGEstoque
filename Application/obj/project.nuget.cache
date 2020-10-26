@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "18UwsVSK3TZ3GBDFAVJxjfENBEsuQFTYsHra6oOZlTWL9CGeyuGoXkxyTMYViEAsKTIRzEulC+Xte7BP712o2g==",
+  "dgSpecHash": "1kLuWd1hDvEQhTqqs7Nzxm/e+E+yUUiujp+WkKKEVprqP9LCZAdF7h77X13SIi/lPh3k8M2jY/YLx4OM8V3qyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application\\SGE.Application.csproj",
   "expectedPackageFiles": [
@@ -27,9 +27,11 @@
     "C:\\Users\\Yuri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\Yuri\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113\\stub.system.data.sqlite.core.netstandard.1.0.113.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Yuri\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.2\\system.data.sqlite.core.1.0.113.2.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",

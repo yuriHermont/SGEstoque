@@ -7,11 +7,11 @@ namespace SGE.Domain.Repository
 {
     public interface IRepository<T>
     {
-        Task<IList<T>> GetAll();
+        Task<List<T>> GetAll();
         Task<T> Get(long id);
-        Task Add(T item);
-        Task Edit(T item);
-        Task Delete(long id);
+        void Add(T item);
+        void Edit(T item);
+        void Delete(T id);
     }
 
 }

@@ -6,3 +6,4 @@ C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.dll
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.csprojAssemblyReference.cache

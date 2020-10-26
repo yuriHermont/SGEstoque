@@ -6,7 +6,7 @@ C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\bin\
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.csprojAssemblyReference.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.AssemblyInfoInputs.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.AssemblyInfo.cs
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.csproj.CopyComplete
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.dll
 C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Infrastructure.Repository\obj\Debug\netstandard2.0\SGE.Infrastructure.Repository.csproj.CoreCompileInputs.cache

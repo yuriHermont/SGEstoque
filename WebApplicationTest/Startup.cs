@@ -41,9 +41,12 @@ namespace WebApplicationTest
             //services.AddRazorPages();
             services.AddMvc();
             
-            services
-               .AddDbContext<ProdutoDbContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
-               
+            //services.AddDbContext<ProdutoDbContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            //services.AddDbContext<DBContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+
+
             services.AddMediatR(typeof(Startup));
             services.AddMediatR(typeof(ListarProdutosQuery), typeof(ListarProdutosQueryHandler));
             services.AddMediatR(typeof(CriarProdutoCommand), typeof(CriarProdutoCommandHandler));
@@ -90,6 +93,8 @@ namespace WebApplicationTest
 
             //Repositories
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddSingleton<DBContext>();
+            services.AddSingleton<ProdutoDbContext>();
         }
         //public static IMapper CriarMapperProfiles()
         //{

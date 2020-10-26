@@ -29,11 +29,13 @@ namespace SGE.Application.QueryHandler
         {
             List<ProdutoDTO> responseData = new List<ProdutoDTO>();
             try {
-
-                List<Produto> result = (await _produtoRepository.GetAll()).ToList();
+                var aux = await _produtoRepository.GetAll();
+                List<Produto> result = aux.ToList();
                 responseData = _mapper.Map<List<ProdutoDTO>>(result);
                 return responseData;
-            } catch { }
+            } catch(Exception ex) {
+                Console.WriteLine(ex.Message);
+                throw new Exception(); }
             return responseData;
         }
     }

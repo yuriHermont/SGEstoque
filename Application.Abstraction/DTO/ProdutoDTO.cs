@@ -7,7 +7,7 @@ namespace SGE.Application.Abstraction.DTO
     public class ProdutoDTO
     {
         public string NomeProduto { get; set; }
-        public int QtdeProduto { get; set; }
+        public long QtdeProduto { get; set; }
         public float ValorUnitario { get; set; }
     }
 }

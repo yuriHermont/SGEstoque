@@ -84,9 +84,6 @@ C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netco
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.csprojAssemblyReference.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.AssemblyInfoInputs.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.AssemblyInfo.cs
-C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.csproj.CoreCompileInputs.cache
-C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.RazorAssemblyInfo.cache
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.RazorAssemblyInfo.cs
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.TagHelpers.input.cache
@@ -108,3 +105,12 @@ C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netco
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.dll
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.pdb
 C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.genruntimeconfig.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\System.Data.SQLite.EF6.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Yuri\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\netcoreapp3.1\SGE.API.MvcApplicationPartsAssemblyInfo.cache

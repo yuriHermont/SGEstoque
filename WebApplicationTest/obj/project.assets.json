@@ -582,6 +582,33 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.113": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -698,6 +725,31 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Data.SQLite/1.0.113.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.113.2",
+          "System.Data.SQLite.EF6": "1.0.113"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.113.2": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "1.0.113"
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.113": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.EF6.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.7.1": {
@@ -891,6 +943,7 @@
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "SGE.Domain": "1.0.0",
+          "System.Data.SQLite.Core": "1.0.113.2",
           "sqlite": "3.13.0"
         },
         "compile": {
@@ -1764,6 +1817,27 @@
         "sqlitepclraw.provider.dynamic_cdecl.nuspec"
       ]
     },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.113": {
+      "sha512": "kKswczuq9BaznbOL7EuMj+08UrWgyBHyh7uNILckL2CISpQQEpge5Sa5HiueT7BIbONaiiP8AHN5gg82O9367Q==",
+      "type": "package",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.113",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.config",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll.config",
+        "lib/netstandard2.1/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x86/native/SQLite.Interop.dll",
+        "stub.system.data.sqlite.core.netstandard.1.0.113.nupkg.sha512",
+        "stub.system.data.sqlite.core.netstandard.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
@@ -2072,6 +2146,65 @@
         "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Data.SQLite/1.0.113.2": {
+      "sha512": "e1yHxDgrwcYsYsgFcoCjcbu/kixc4kWa3vwcuzpNNJuzwWITzxBz939M2+Yjc32ua8lYw3t12+wA6wExUhnCEg==",
+      "type": "package",
+      "path": "system.data.sqlite/1.0.113.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.1.0.113.2.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.113.2": {
+      "sha512": "EOSQ6Y03d6VzPVQ75bHsYGK0EMPzEFsi/Ua3kaIyIclllBTPqXl4M1XTrKTik5aHLt+rqVw1ojZyAZti3hnO0Q==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.113.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.core.1.0.113.2.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Data.SQLite.EF6/1.0.113": {
+      "sha512": "4EioCVv8fEsI6Xp66Q/r9QI680smaLZzlIvBDXWRxPuc1/puBA8jHm7CTY3wgAOwAuiPgLsmq6RVdAjoaVuziQ==",
+      "type": "package",
+      "path": "system.data.sqlite.ef6/1.0.113",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net40/app.config.install.xdt",
+        "content/net40/app.config.transform",
+        "content/net40/web.config.install.xdt",
+        "content/net40/web.config.transform",
+        "content/net45/app.config.install.xdt",
+        "content/net45/app.config.transform",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.transform",
+        "content/net451/app.config.install.xdt",
+        "content/net451/app.config.transform",
+        "content/net451/web.config.install.xdt",
+        "content/net451/web.config.transform",
+        "content/net46/app.config.install.xdt",
+        "content/net46/app.config.transform",
+        "content/net46/web.config.install.xdt",
+        "content/net46/web.config.transform",
+        "lib/net40/System.Data.SQLite.EF6.dll",
+        "lib/net45/System.Data.SQLite.EF6.dll",
+        "lib/net451/System.Data.SQLite.EF6.dll",
+        "lib/net46/System.Data.SQLite.EF6.dll",
+        "lib/netstandard2.1/System.Data.SQLite.EF6.dll",
+        "system.data.sqlite.ef6.1.0.113.nupkg.sha512",
+        "system.data.sqlite.ef6.nuspec",
+        "tools/net40/install.ps1",
+        "tools/net45/install.ps1",
+        "tools/net451/install.ps1",
+        "tools/net46/install.ps1"
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.7.1": {
@@ -2464,6 +2597,7 @@
       "SGE.Application.Abstraction >= 1.0.0",
       "SGE.Infrastructure.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
+      "System.Data.SQLite >= 1.0.113.2",
       "sqlite >= 3.13.0"
     ]
   },
@@ -2549,6 +2683,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[1.0.113.2, )"
           },
           "sqlite": {
             "target": "Package",

@@ -19,32 +19,26 @@ namespace SGE.Infrastructure.Repository
             this._context = context;
         }
 
-        public async Task<IList<Produto>> GetAll()
+        public async Task<List<Produto>> GetAll()
         {
-            return this._context.Produto.ToList();
+            return await this._context.ListarProdutos();
         }
         public async Task<Produto> Get(long id)
         {
-            return this._context.Produto.Find(id);
+            return (await this._context.ListarProdutos()).Where(p=>p.Id==id).FirstOrDefault();
         }
-        public async Task Add(Produto produto)
+        public void Add(Produto produto)
         {
-            await _context.Produto.AddAsync(produto);
+           this._context.InserirProduto(produto);
         }
-        public async Task Edit(Produto produto)
+        public void Edit(Produto produto)
         {
-            var aux2 = _context.Produto;
-            aux2.Add(new Produto{
-                NomeProduto = produto.NomeProduto,
-                ValorUnitario = produto.ValorUnitario,
-                QtdeProduto = produto.QtdeProduto
-            });
-            _context.SaveChanges();
+            this._context.AtualizarProduto(produto);
         }
-        public async Task Delete(long id)
+        public void Delete(Produto produto)
         {
-            Produto produto =  this._context.Produto.Find(id);
-            _context.Remove(produto);
+            this._context.DeletarProduto(produto);
+
         }
     }
 }
