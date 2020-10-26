@@ -15,8 +15,7 @@ using System.Threading.Tasks;
 
 namespace SGE.API.Controller
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Route("Api/[controller]")]
     public class ProdutoController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -36,7 +35,7 @@ namespace SGE.API.Controller
             List<ProdutoDTO> response = await this._mediator.Send(query);
             return CreatedAtAction("ListarProdutos", response);
         }
-        [HttpPut, Route("CadastrarProdutos"), ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ComumResponseViewModel<>)),
+        [HttpPost, Route("CadastrarProduto"), ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ComumResponseViewModel<>)),
          ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(List<ValidationFailure>))]
         public async Task<IActionResult> CadastrarProdutos([FromBody] ProdutoDTO dto)
         {
