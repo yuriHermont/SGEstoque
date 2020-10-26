@@ -1,9 +1,0 @@
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\bin\Debug\netstandard2.0\SGE.Domain.deps.json
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\bin\Debug\netstandard2.0\SGE.Domain.dll
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\bin\Debug\netstandard2.0\SGE.Domain.pdb
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.AssemblyInfoInputs.cache
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.AssemblyInfo.cs
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.dll
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.pdb
-C:\Users\Yuri\source\repos\WebApplicationTest\SGE.Domain\obj\Debug\netstandard2.0\SGE.Domain.csprojAssemblyReference.cache
