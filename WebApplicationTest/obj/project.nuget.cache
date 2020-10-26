@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6K5MrLstdTyb3F/FcyWV8x+qWm1BPRr0+IRKpdyRK+Yro+yWGQxTnB9pAeTxNnqEb86YJL4uPoD1MFiCkYyqAA==",
+  "dgSpecHash": "+Vy9BcU+/par6pAsQmHcwynmqpF0hE6BxZHZB1jiHaTymcxKWPg2q0qJc7TyjBFfFBJ9glgNzsbPIKMNQyH/fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\WebApplicationTest\\SGE.API.csproj",
+  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\WebApplicationTest\\SGE.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

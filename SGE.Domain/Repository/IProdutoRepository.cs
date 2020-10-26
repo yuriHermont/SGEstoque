@@ -8,15 +8,15 @@ namespace SGE.Domain.Repository
 {
     public interface IProdutoRepository : IRepository<Produto>
     {
-        Task<IEnumerable<Produto>> GetAll();
+        Task<IList<Produto>> GetAll();
 
-        Task<Produto> Get(int id);
+        Task<Produto> Get(long id);
 
         Task Add(Produto produto);
 
         Task Edit(Produto produto);
 
-        Task Delete(int id);
+        Task Delete(long id);
         
     }
 }

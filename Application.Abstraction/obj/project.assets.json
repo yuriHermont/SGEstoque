@@ -454,11 +454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
+      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
       "projectName": "SGE.Application.Abstraction",
-      "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
+      "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
       "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\obj\\",
+      "outputPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vJxZdfUb/h6u7nrDLwpqRS8xortSOJdqXqaVbCJkuwRzS6Vlj1grf3vlWwpvzMFqYhuXHXI6zJ5x2OWy4w44yw==",
+  "dgSpecHash": "JFgB1OwHKcdxgjQ9W4NHSYV6Ca3A4yK3bBHik0hGPRCp5x19+EeY1299L1D8dTnvSXmmrm7cefsJquTEHy1JRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Domain\\SGE.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Domain\\SGE.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

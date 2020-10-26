@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NkYf71JLEJFT0YxrsllSyhg1xxbVtEgLVcZcbwf9rOUJ80hQFMoxm5hq6dd7CVe8Oc3fOGcAYLd7fXPfdN4wTA==",
+  "dgSpecHash": "lljVR4qcpFzFsBu6SDo/9PWjObUFQlPTfXJs8KwJrQ8Q5vnQRinCIcmbmehzfhZTlRBHNg5Ac3V+vPbLLmbwyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
+  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\SGE.Application.Abstraction.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

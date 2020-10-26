@@ -20,20 +20,21 @@ namespace SGE.Application.QueryHandler
         private readonly IMapper _mapper;
         private readonly IProdutoRepository _produtoRepository;
 
-        public ListarProdutosQueryHandler (IMediator mediator, IMapper mapper)
+        public ListarProdutosQueryHandler (IMediator mediator, IMapper mapper, IProdutoRepository produtoRepository)
         {
             this._mapper = mapper;
+            this._produtoRepository = produtoRepository;
         }
         public async Task<List<ProdutoDTO>> Handle(ListarProdutosQuery query, CancellationToken cancellationToken)
         {
+            List<ProdutoDTO> responseData = new List<ProdutoDTO>();
             try {
 
                 List<Produto> result = (await _produtoRepository.GetAll()).ToList();
-                List<ProdutoDTO> responseData = _mapper.Map<List<ProdutoDTO>>(result);
+                responseData = _mapper.Map<List<ProdutoDTO>>(result);
                 return responseData;
             } catch { }
-
-            throw new NotImplementedException();
+            return responseData;
         }
     }
 }

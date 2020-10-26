@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PhLe/MceSyhFoJ5IDXIckmTXhJiWAV5l82wYwNDDTT7m2JAadukvOJ13oujGkz685OunvuQqWxSpzTt95HGqbw==",
+  "dgSpecHash": "18UwsVSK3TZ3GBDFAVJxjfENBEsuQFTYsHra6oOZlTWL9CGeyuGoXkxyTMYViEAsKTIRzEulC+Xte7BP712o2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application\\SGE.Application.csproj",
+  "projectFilePath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application\\SGE.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Yuri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

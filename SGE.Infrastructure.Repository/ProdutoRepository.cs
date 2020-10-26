@@ -14,34 +14,37 @@ namespace SGE.Infrastructure.Repository
         private static Dictionary<int, Produto> produtos = new Dictionary<int, Produto>();
 
         private readonly ProdutoDbContext _context;
+      
         public ProdutoRepository(ProdutoDbContext context) {
             this._context = context;
         }
 
-        public async Task<IEnumerable<Produto>> GetAll()
+        public async Task<IList<Produto>> GetAll()
         {
-           throw new NotImplementedException();
+            return this._context.Produto.ToList();
         }
-        public async Task<Produto> Get(int id)
+        public async Task<Produto> Get(long id)
         {
-            return await Task.Run(() => produtos[id]);
+            return this._context.Produto.Find(id);
         }
         public async Task Add(Produto produto)
         {
-            //await _context.Produto.AddAsync(produto);
+            await _context.Produto.AddAsync(produto);
         }
         public async Task Edit(Produto produto)
         {
-            //await Task.Run(() =>
-            //{
-            //    produtos.Remove(produto.Id);
-            //    produtos.Add(produto.Id, produto);
-            //});
-            throw new NotImplementedException();
+            var aux2 = _context.Produto;
+            aux2.Add(new Produto{
+                NomeProduto = produto.NomeProduto,
+                ValorUnitario = produto.ValorUnitario,
+                QtdeProduto = produto.QtdeProduto
+            });
+            _context.SaveChanges();
         }
-        public async Task Delete(int id)
+        public async Task Delete(long id)
         {
-            await Task.Run(() => produtos.Remove(id));
+            Produto produto =  this._context.Produto.Find(id);
+            _context.Remove(produto);
         }
     }
 }

@@ -1481,11 +1481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application\\SGE.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application\\SGE.Application.csproj",
       "projectName": "SGE.Application",
-      "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application\\SGE.Application.csproj",
+      "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application\\SGE.Application.csproj",
       "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application\\obj\\",
+      "outputPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1501,14 +1501,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\SGE.Application.Abstraction.csproj": {
-              "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\Application.Abstraction\\SGE.Application.Abstraction.csproj"
+            "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\SGE.Application.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\Application.Abstraction\\SGE.Application.Abstraction.csproj"
             },
-            "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Domain\\SGE.Domain.csproj": {
-              "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Domain\\SGE.Domain.csproj"
+            "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Domain\\SGE.Domain.csproj": {
+              "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Domain\\SGE.Domain.csproj"
             },
-            "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\Yuri\\source\\repos\\SGEstoque\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj"
+            "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj": {
+              "projectPath": "C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\SGE.Infrastructure.Repository\\SGE.Infrastructure.Repository.csproj"
             }
           }
         }

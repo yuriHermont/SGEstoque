@@ -34,9 +34,10 @@ namespace SGE.Application.Command
             };
             try {
                 await _produtoRepository.Add(produto);
-            } catch { }
-
-            throw new NotImplementedException();
+                return "ok";
+            } catch {
+                return "falha";
+            }
         } 
     }
     
