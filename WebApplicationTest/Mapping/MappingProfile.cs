@@ -15,6 +15,8 @@ namespace SGE.API.Mapping
         {
             //Command
             this.CreateMap<ProdutoDTO,CriarProdutoCommand>();
+            this.CreateMap<ProdutoDTO,DeletarProdutoCommand>();
+            this.CreateMap<ProdutoDTO,AtualizarProdutoCommand>();
 
         }
     }

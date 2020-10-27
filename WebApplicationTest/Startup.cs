@@ -22,6 +22,7 @@ using SGE.Domain.Repository;
 using SGE.Infrastructure.Repository;
 using SGE.Infrastructure.Repository.Context;
 using Microsoft.EntityFrameworkCore;
+using SGE.Application.CommandHandler;
 
 namespace WebApplicationTest
 {
@@ -37,7 +38,7 @@ namespace WebApplicationTest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddCors(option => option.AddDefaultPolicy(policy=> policy.AllowAnyOrigin()));
+            services.AddCors(option => option.AddDefaultPolicy(policy=> policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
             //services.AddRazorPages();
             services.AddMvc();
             
@@ -48,7 +49,10 @@ namespace WebApplicationTest
 
             services.AddMediatR(typeof(Startup));
             services.AddMediatR(typeof(ListarProdutosQuery), typeof(ListarProdutosQueryHandler));
+            services.AddMediatR(typeof(ConsultarProdutoQuery), typeof(ConsultarProdutoQueryHandler));
             services.AddMediatR(typeof(CriarProdutoCommand), typeof(CriarProdutoCommandHandler));
+            services.AddMediatR(typeof(AtualizarProdutoCommand), typeof(AtualizarProdutoCommandHandler));
+            services.AddMediatR(typeof(DeletarProdutoCommand), typeof(DeletarProdutoCommandHandler));
             
 
             services.AddSwaggerGen(c =>
@@ -82,10 +86,16 @@ namespace WebApplicationTest
             //Queries
             services.AddScoped<ListarProdutosQuery>();
             services.AddScoped<ListarProdutosQueryHandler>();
+            services.AddScoped<ConsultarProdutoQuery>();
+            services.AddScoped<ConsultarProdutoQueryHandler>();
 
             //Commands
             services.AddScoped<CriarProdutoCommand>();
             services.AddScoped<CriarProdutoCommandHandler>();
+            services.AddScoped<AtualizarProdutoCommand>();
+            services.AddScoped<AtualizarProdutoCommandHandler>();
+            services.AddScoped<DeletarProdutoCommand>();
+            services.AddScoped<DeletarProdutoCommandHandler>();
 
             //DomainService
             services.AddScoped<ProdutoService>();
@@ -95,18 +105,7 @@ namespace WebApplicationTest
             services.AddSingleton<DBContext>();
             services.AddSingleton<ProdutoDbContext>();
         }
-        //public static IMapper CriarMapperProfiles()
-        //{
-        //    var mappingConfig = new MapperConfiguration(x =>
-        //    {
-        //        x.AddProfile<SGE.API.Mapping.MappingProfile>();
-        //        x.AddProfile<SGE.Application.Mapping.MappingProfile>();
-        //    });
-
-        //    return mappingConfig;
-        //}
- 
-
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

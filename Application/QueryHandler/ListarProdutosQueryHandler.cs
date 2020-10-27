@@ -33,10 +33,10 @@ namespace SGE.Application.QueryHandler
                 List<Produto> result = aux.ToList();
                 responseData = _mapper.Map<List<ProdutoDTO>>(result);
                 return responseData;
-            } catch(Exception ex) {
-                Console.WriteLine(ex.Message);
-                throw new Exception(); }
-            return responseData;
+            } catch
+            {    
+                throw new Exception(); 
+            }
         }
     }
 }

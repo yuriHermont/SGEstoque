@@ -15,6 +15,8 @@ namespace SGE.Application.Mapping
         {
             this.CreateMap<Produto, ProdutoDTO>().ReverseMap();
             this.CreateMap<CriarProdutoCommand, Produto>().ReverseMap();
+            this.CreateMap<DeletarProdutoCommand, Produto>().ReverseMap();
+            this.CreateMap<AtualizarProdutoCommand, Produto>().ReverseMap();
         }
     }
 }

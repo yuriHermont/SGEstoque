@@ -23,15 +23,11 @@ namespace SGE.Application.Command
         {
             this._mediator = mediator;
             this._produtoRepository = produtoRepository;
+            this._mapper = mapper;
         }
         public async Task<string> Handle(CriarProdutoCommand command, CancellationToken cancellationToken)
         {
-            Produto produto = new Produto()
-            {
-                NomeProduto = command.NomeProduto,
-                QtdeProduto = command.QtdeProduto,
-                ValorUnitario = command.ValorUnitario
-            };
+            Produto produto = _mapper.Map<Produto>(command);
             try {
                 _produtoRepository.Add(produto);
                 return "ok";

@@ -42,7 +42,7 @@ namespace SGE.Infrastructure.Repository.Context
         {
             var ptbr = new CultureInfo("pt-br");
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat(@"INSERT INTO TBProduto ( Id, NomeProduto, QtdeProduto, ValorUnitario ) VALUES ( null ,'{0}',{1} ,{2} )",
+            sql.AppendFormat(@" INSERT INTO TBProduto ( Id, NomeProduto, QtdeProduto, ValorUnitario ) VALUES ( null ,'{0}',{1} ,{2} )",
                 produto.NomeProduto, produto.QtdeProduto, produto.ValorUnitario.ToString().Replace(",","") );
             _context.Alterar(sql.ToString());
         }
@@ -50,16 +50,16 @@ namespace SGE.Infrastructure.Repository.Context
         public async void AtualizarProduto(Produto produto)
         {
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat("UPDATE INTO TBProduto ( NomeProduto, QtdeProduto, ValorUnitario ) VALUES ( '{0}',{1} ,{2} )",
+            sql.AppendFormat(" UPDATE TBProduto SET NomeProduto = '{0}', QtdeProduto = {1}, ValorUnitario={2}",
                 produto.NomeProduto, produto.QtdeProduto, produto.ValorUnitario.ToString().Replace(",", ""));
-            sql.AppendFormat("WHERE Id = {0}", produto.Id);
+            sql.AppendFormat(" WHERE Id = {0}", produto.Id);
             _context.Alterar(sql.ToString());
         }
 
         public async void DeletarProduto(Produto produto)
         {
             StringBuilder sql = new StringBuilder();
-            sql.AppendFormat("DELETE FROM TBProduto WHERE Id = {0} ", produto.Id);
+            sql.AppendFormat(" DELETE FROM TBProduto WHERE Id = {0} ", produto.Id);
             _context.Alterar(sql.ToString());
         }
     }
