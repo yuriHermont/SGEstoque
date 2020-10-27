@@ -1,0 +1,9 @@
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\bin\Debug\netstandard2.0\SGE.Application.Abstraction.deps.json
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\bin\Debug\netstandard2.0\SGE.Application.Abstraction.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\bin\Debug\netstandard2.0\SGE.Application.Abstraction.pdb
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.csprojAssemblyReference.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.AssemblyInfoInputs.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.AssemblyInfo.cs
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.dll
+C:\Users\Yuri\source\repos\WebApplicationTest\Application.Abstraction\obj\Debug\netstandard2.0\SGE.Application.Abstraction.pdb

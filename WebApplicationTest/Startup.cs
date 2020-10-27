@@ -46,7 +46,6 @@ namespace WebApplicationTest
             //services.AddDbContext<DBContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
 
-
             services.AddMediatR(typeof(Startup));
             services.AddMediatR(typeof(ListarProdutosQuery), typeof(ListarProdutosQueryHandler));
             services.AddMediatR(typeof(CriarProdutoCommand), typeof(CriarProdutoCommandHandler));
@@ -64,7 +63,7 @@ namespace WebApplicationTest
                         {
                             Name = "Yuri S. Hermont Jr.",
                             Email = "yuri.hermont@gmail.com",
-                            Url = new Uri("https://www.facebook.com/yhermont"),
+                            Url = new Uri("https://www.linkedin.com/in/yuri-de-souza-hermont-0483b5145/"),
                         },
                         License = new OpenApiLicense
                         {
@@ -131,7 +130,7 @@ namespace WebApplicationTest
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseCors();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

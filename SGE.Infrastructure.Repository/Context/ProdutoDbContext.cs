@@ -25,7 +25,7 @@ namespace SGE.Infrastructure.Repository.Context
         public async Task<List<Produto>> ListarProdutos()
         {
             DataTable retorno = _context.Consulta("select * from TBProduto");
-
+            _produtos.Clear();
             foreach (DataRow linha in retorno.Rows)
             {
                 _produtos.Add(new Produto

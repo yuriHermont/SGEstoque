@@ -35,7 +35,7 @@ namespace SGE.API.Controller
             List<ProdutoDTO> response = await this._mediator.Send(query);
             return CreatedAtAction("ListarProdutos", response);
         }
-        [HttpPost, Route("CadastrarProduto"), ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ComumResponseViewModel<>)),
+        [HttpPut, Route("CadastrarProduto"), ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ComumResponseViewModel<>)),
          ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(List<ValidationFailure>))]
         public async Task<IActionResult> CadastrarProdutos([FromBody] ProdutoDTO dto)
         {

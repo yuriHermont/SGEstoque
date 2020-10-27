@@ -11,45 +11,27 @@ namespace SGE.Infrastructure.Repository.Context
 {
     public class DBContext 
     {
-
+        SQLiteDataAdapter _da = null;
         public DBContext() { }
         
         private static SQLiteConnection connection;
         private static SQLiteConnection Connection() 
         {
-            connection = new SQLiteConnection("Data Source= C:\\Users\\Yuri\\source\\repos\\WebApplicationTest\\BancoDeDados\\BancoSGE.db");
+            connection = new SQLiteConnection("Data Source=..\\BancoDeDados\\BancoSGE.db");
             connection.Open();
             return connection;
         }
 
-        //public static DataTable  ListarProdutos() 
-        //{
-        //    SQLiteDataAdapter da = null;
-        //    DataTable dt = new DataTable();
-        //    try {
-        //        using (var cmd = Connection().CreateCommand()) {
-        //            cmd.CommandText = "SELECT * FROM TBProduto";
-        //            da = new SQLiteDataAdapter(cmd.CommandText, Connection());
-        //            da.Fill(dt);
-        //            Connection().Close();
-        //            return dt;
-        //        }
-        //    } catch (Exception ex) {
-        //        throw ex;
-        //    }
-        //}
-
         public DataTable Consulta(string sql)
         {
-            SQLiteDataAdapter da = null;
             DataTable dt = new DataTable();
             try
             {
                 using (var cmd = Connection().CreateCommand())
                 {
                     cmd.CommandText = sql;
-                    da = new SQLiteDataAdapter(cmd.CommandText, Connection());
-                    da.Fill(dt);
+                    _da = new SQLiteDataAdapter(cmd.CommandText, Connection());
+                    _da.Fill(dt);
                     Connection().Close();
                     return dt;
                 }
@@ -63,15 +45,14 @@ namespace SGE.Infrastructure.Repository.Context
         }
         public void Alterar(string sql)
         {
-            SQLiteDataAdapter da = null;
             DataTable dt = new DataTable();
             try
             {
                 using (var cmd = Connection().CreateCommand())
                 {
                     cmd.CommandText = sql;
-                    da = new SQLiteDataAdapter(cmd.CommandText, Connection());
-                    da.Fill(dt);
+                    _da = new SQLiteDataAdapter(cmd.CommandText, Connection());
+                    _da.Fill(dt);
                     Connection().Close();
                 }
             }
